@@ -6,7 +6,6 @@ import java.io.Serializable;
  * @author:zuohf
  * @description:
  * @date:created in 2019/8/21
- * mofify:by
  */
 public class Person implements Serializable {
     private String sex;
