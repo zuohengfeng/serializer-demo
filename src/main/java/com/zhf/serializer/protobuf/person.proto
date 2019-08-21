@@ -1,0 +1,13 @@
+syntax="proto2";
+package com.zhf.serializer.protobuf;
+
+option java_package ="com.zhf.serializer.protobuf";
+option java_outer_classname = "PersonProto";
+message Person {
+required string sex=1;
+required string color=2;
+required int32  number=3;
+required string other=4;
+}
+
+
